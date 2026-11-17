@@ -1,0 +1,533 @@
+[
+  {
+    "id": "uhc",
+    "title": "University Health Centre",
+    "text": "UHC is at 20 Lower Kent Ridge Road, Level 1, Singapore 119080. Contact the clinic at +65 6601 5035.",
+    "sourceId": "UHC_PanelClinic_Info",
+    "page": 3,
+    "anchor": "20 Lower Kent Ridge Road",
+    "modes": [
+      "care"
+    ],
+    "kind": "care"
+  },
+  {
+    "id": "eligibility",
+    "title": "Check your student status",
+    "text": "The overview includes full-time students and part-time cohorts from AY2026/27, except part-time CPE. Confirm individual eligibility and Health Service Fees before relying on benefits.",
+    "sourceId": "Student_Insurance_Overview",
+    "page": 1,
+    "anchor": "part time students",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "step"
+  },
+  {
+    "id": "status",
+    "title": "Check fees and active enrolment",
+    "text": "Cover can cease with changed enrolment status or unpaid premiums. Leave of absence has limited, conditional provisions; ask NUS to confirm individual applicability.",
+    "sourceId": "si-important-notes",
+    "page": 1,
+    "anchor": "not paid the insurance premium",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "step"
+  },
+  {
+    "id": "submit",
+    "title": "Submit through IHP",
+    "text": "For the insurer claims described in the factsheets, use the IHP OneConnect app or portal. UHC scheme claims use a separate route; do not assume every claim goes to IHP.",
+    "sourceId": "si-claims",
+    "page": 1,
+    "anchor": "IHP ONECONNECT",
+    "modes": [
+      "claim"
+    ],
+    "kind": "step"
+  },
+  {
+    "id": "originals",
+    "title": "Keep your originals",
+    "text": "Keep original invoices and receipts for one year from treatment and provide them if the insurer requests them.",
+    "sourceId": "si-claims",
+    "page": 1,
+    "anchor": "Original invoices",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "step"
+  },
+  {
+    "id": "uhc-route",
+    "title": "UHC scheme claim route",
+    "text": "The University Health Scheme section directs claims to the UHC Admin Office within 30 days of treatment. Confirm which scheme applies before submitting.",
+    "sourceId": "Student_Insurance_Overview",
+    "page": 2,
+    "anchor": "Admin Office",
+    "modes": [
+      "claim"
+    ],
+    "kind": "step",
+    "setting": "uhc"
+  },
+  {
+    "id": "specialist-procedure",
+    "title": "Claim procedure",
+    "text": "Use the claim procedure and supporting-document table for this scheme. The insurer may request more information.",
+    "sourceId": "Factsheet_outpatientspecialistinsurance",
+    "page": 2,
+    "anchor": "Claim Procedure",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "step",
+    "setting": "specialist"
+  },
+  {
+    "id": "specialist-invoice",
+    "title": "Medical invoices with details of treatment",
+    "text": "Medical invoices with details of treatment.",
+    "sourceId": "Factsheet_outpatientspecialistinsurance",
+    "page": 2,
+    "anchor": "Medical Invoices",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "specialist",
+    "requirement": "required"
+  },
+  {
+    "id": "specialist-referral",
+    "title": "Referral letter",
+    "text": "Referral letter.",
+    "sourceId": "Factsheet_outpatientspecialistinsurance",
+    "page": 2,
+    "anchor": "Referral Letter",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "specialist",
+    "requirement": "required"
+  },
+  {
+    "id": "specialist-memo",
+    "title": "Doctor’s memo",
+    "text": "Doctor’s memo.",
+    "sourceId": "Factsheet_outpatientspecialistinsurance",
+    "page": 2,
+    "anchor": "octor’s Memo",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "specialist",
+    "requirement": "conditional",
+    "condition": "If initial treatment started before joining NUS"
+  },
+  {
+    "id": "specialist-settlement",
+    "title": "Previous insurer’s settlement letter/email",
+    "text": "Previous insurer’s settlement letter/email.",
+    "sourceId": "Factsheet_outpatientspecialistinsurance",
+    "page": 2,
+    "anchor": "Settlement",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "specialist",
+    "requirement": "conditional",
+    "condition": "If initial treatment started before 1 August 2022"
+  },
+  {
+    "id": "specialist-receipt",
+    "title": "Payment receipt",
+    "text": "Payment receipt.",
+    "sourceId": "Factsheet_outpatientspecialistinsurance",
+    "page": 2,
+    "anchor": "Payment Receipt",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "specialist",
+    "requirement": "conditional",
+    "condition": "If the invoice shows payment is due"
+  },
+  {
+    "id": "specialist-reports",
+    "title": "Written test reports",
+    "text": "Written test reports.",
+    "sourceId": "Factsheet_outpatientspecialistinsurance",
+    "page": 2,
+    "anchor": "Written Test Reports",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "specialist",
+    "requirement": "conditional",
+    "condition": "If any; hospital checklist specifies claims without LOG"
+  },
+  {
+    "id": "specialist-order",
+    "title": "Test order form",
+    "text": "Test order form.",
+    "sourceId": "Factsheet_outpatientspecialistinsurance",
+    "page": 2,
+    "anchor": "Test Order Form",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "specialist",
+    "requirement": "conditional",
+    "condition": "If any"
+  },
+  {
+    "id": "specialist-police",
+    "title": "Police report",
+    "text": "Police report.",
+    "sourceId": "Factsheet_outpatientspecialistinsurance",
+    "page": 2,
+    "anchor": "Police Report",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "specialist",
+    "requirement": "conditional",
+    "condition": "For road traffic accidents; hospital checklist specifies claims without LOG"
+  },
+  {
+    "id": "specialist-overseas",
+    "title": "Medical report",
+    "text": "Medical report.",
+    "sourceId": "Factsheet_outpatientspecialistinsurance",
+    "page": 2,
+    "anchor": "Medical Report",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "specialist",
+    "requirement": "conditional",
+    "condition": "For overseas treatment; hospital checklist specifies claims without LOG"
+  },
+  {
+    "id": "hospital-procedure",
+    "title": "Claim procedure",
+    "text": "Use the claim procedure and supporting-document table for this scheme. The insurer may request more information.",
+    "sourceId": "Factsheet_hospitalisationandsurgicalinsurance",
+    "page": 1,
+    "anchor": "Claim Procedure",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "step",
+    "setting": "hospital"
+  },
+  {
+    "id": "hospital-invoice",
+    "title": "Final hospital invoice",
+    "text": "Final hospital invoice.",
+    "sourceId": "Factsheet_hospitalisationandsurgicalinsurance",
+    "page": 1,
+    "anchor": "Final Hospital Invoice",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "hospital",
+    "requirement": "conditional",
+    "condition": "For a claim without a Letter of Guarantee (LOG)"
+  },
+  {
+    "id": "hospital-prepost",
+    "title": "Pre/post hospitalisation or surgery invoices",
+    "text": "Pre/post hospitalisation or surgery invoices.",
+    "sourceId": "Factsheet_hospitalisationandsurgicalinsurance",
+    "page": 1,
+    "anchor": "Pre/Post",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "hospital",
+    "requirement": "conditional",
+    "condition": "If claiming pre/post hospitalisation or surgery expenses"
+  },
+  {
+    "id": "hospital-discharge",
+    "title": "Inpatient discharge summary",
+    "text": "Inpatient discharge summary.",
+    "sourceId": "Factsheet_hospitalisationandsurgicalinsurance",
+    "page": 1,
+    "anchor": "Inpatient Discharge Summary",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "hospital",
+    "requirement": "required"
+  },
+  {
+    "id": "hospital-receipt",
+    "title": "Payment receipt",
+    "text": "Payment receipt.",
+    "sourceId": "Factsheet_hospitalisationandsurgicalinsurance",
+    "page": 1,
+    "anchor": "Payment Receipt",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "hospital",
+    "requirement": "conditional",
+    "condition": "If the invoice shows payment is due; with LOG, for pre/post expenses"
+  },
+  {
+    "id": "hospital-referral",
+    "title": "Referral letter or A&E memo",
+    "text": "Referral letter or A&E memo.",
+    "sourceId": "Factsheet_hospitalisationandsurgicalinsurance",
+    "page": 1,
+    "anchor": "Referral Letter",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "hospital",
+    "requirement": "conditional",
+    "condition": "If any; hospital checklist specifies claims without LOG"
+  },
+  {
+    "id": "hospital-reports",
+    "title": "Written test reports",
+    "text": "Written test reports.",
+    "sourceId": "Factsheet_hospitalisationandsurgicalinsurance",
+    "page": 1,
+    "anchor": "Written Test Reports",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "hospital",
+    "requirement": "conditional",
+    "condition": "If any; hospital checklist specifies claims without LOG"
+  },
+  {
+    "id": "hospital-police",
+    "title": "Police report",
+    "text": "Police report.",
+    "sourceId": "Factsheet_hospitalisationandsurgicalinsurance",
+    "page": 1,
+    "anchor": "Police Report",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "hospital",
+    "requirement": "conditional",
+    "condition": "For road traffic accidents; hospital checklist specifies claims without LOG"
+  },
+  {
+    "id": "hospital-overseas",
+    "title": "Medical report",
+    "text": "Medical report.",
+    "sourceId": "Factsheet_hospitalisationandsurgicalinsurance",
+    "page": 1,
+    "anchor": "Medical Report",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "hospital",
+    "requirement": "conditional",
+    "condition": "For overseas treatment; hospital checklist specifies claims without LOG"
+  },
+  {
+    "id": "accident-procedure",
+    "title": "Claim procedure",
+    "text": "Use the claim procedure and supporting-document table for this scheme. The insurer may request more information.",
+    "sourceId": "Factsheet_grouppersonalaccident",
+    "page": 2,
+    "anchor": "Claim Procedure",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "step",
+    "setting": "accident"
+  },
+  {
+    "id": "accident-invoice",
+    "title": "Other medical invoices",
+    "text": "Other medical invoices.",
+    "sourceId": "Factsheet_grouppersonalaccident",
+    "page": 2,
+    "anchor": "Other Medical Invoices",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "accident",
+    "requirement": "conditional",
+    "condition": "For an outpatient accident claim"
+  },
+  {
+    "id": "accident-hospital",
+    "title": "Final hospital invoice and inpatient discharge summary",
+    "text": "Final hospital invoice and inpatient discharge summary.",
+    "sourceId": "Factsheet_grouppersonalaccident",
+    "page": 2,
+    "anchor": "Final Hospital Invoice",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "accident",
+    "requirement": "conditional",
+    "condition": "For a hospitalisation/surgery accident claim"
+  },
+  {
+    "id": "accident-prepost",
+    "title": "Pre/post hospitalisation or surgery invoices",
+    "text": "Pre/post hospitalisation or surgery invoices.",
+    "sourceId": "Factsheet_grouppersonalaccident",
+    "page": 2,
+    "anchor": "Pre/Post",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "accident",
+    "requirement": "conditional",
+    "condition": "For relevant hospitalisation/surgery accident expenses"
+  },
+  {
+    "id": "accident-receipt",
+    "title": "Payment receipt",
+    "text": "Payment receipt.",
+    "sourceId": "Factsheet_grouppersonalaccident",
+    "page": 2,
+    "anchor": "Payment Receipt",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "accident",
+    "requirement": "conditional",
+    "condition": "If the invoice shows payment is due"
+  },
+  {
+    "id": "accident-referral",
+    "title": "Referral letter or A&E memo",
+    "text": "Referral letter or A&E memo.",
+    "sourceId": "Factsheet_grouppersonalaccident",
+    "page": 2,
+    "anchor": "Referral Letter",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "accident",
+    "requirement": "conditional",
+    "condition": "If any; hospital checklist specifies claims without LOG"
+  },
+  {
+    "id": "accident-reports",
+    "title": "Written test reports",
+    "text": "Written test reports.",
+    "sourceId": "Factsheet_grouppersonalaccident",
+    "page": 2,
+    "anchor": "Written Test Reports",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "accident",
+    "requirement": "conditional",
+    "condition": "If any; hospital checklist specifies claims without LOG"
+  },
+  {
+    "id": "accident-order",
+    "title": "Test order form",
+    "text": "Test order form.",
+    "sourceId": "Factsheet_grouppersonalaccident",
+    "page": 2,
+    "anchor": "Test Order Form",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "accident",
+    "requirement": "conditional",
+    "condition": "If any"
+  },
+  {
+    "id": "accident-police",
+    "title": "Police report",
+    "text": "Police report.",
+    "sourceId": "Factsheet_grouppersonalaccident",
+    "page": 2,
+    "anchor": "Police Report",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "accident",
+    "requirement": "conditional",
+    "condition": "For road traffic accidents; hospital checklist specifies claims without LOG"
+  },
+  {
+    "id": "accident-overseas",
+    "title": "Medical report",
+    "text": "Medical report.",
+    "sourceId": "Factsheet_grouppersonalaccident",
+    "page": 2,
+    "anchor": "Medical Report",
+    "modes": [
+      "care",
+      "claim"
+    ],
+    "kind": "document",
+    "setting": "accident",
+    "requirement": "conditional",
+    "condition": "For overseas treatment; hospital checklist specifies claims without LOG"
+  }
+]

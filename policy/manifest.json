@@ -1,0 +1,92 @@
+[
+  {
+    "sourceId": "Factsheet_grouppersonalaccident",
+    "file": "Factsheet_grouppersonalaccident.pdf",
+    "hash": "44bad36bad197d97618bcea7f4584c01e1098653f3292bd41d35ec72355dccb5",
+    "pages": 4,
+    "effectiveStart": "2026-08-01",
+    "effectiveEnd": "2027-07-31",
+    "reviewStatus": "extracted; curated administrative rules reviewed separately"
+  },
+  {
+    "sourceId": "Factsheet_hospitalisationandsurgicalinsurance",
+    "file": "Factsheet_hospitalisationandsurgicalinsurance.pdf",
+    "hash": "9c1de1792d09e1804fbe9cf5cb604a9e0c5d8b961a76ce7eac3f26d86f64c99d",
+    "pages": 5,
+    "effectiveStart": "2026-08-01",
+    "effectiveEnd": "2027-07-31",
+    "reviewStatus": "extracted; curated administrative rules reviewed separately"
+  },
+  {
+    "sourceId": "Factsheet_outpatientspecialistinsurance",
+    "file": "Factsheet_outpatientspecialistinsurance.pdf",
+    "hash": "31ff3c07350e3b81d13ad93a9a7367a57a1b7ffaa9209aef37ab4e56474003cf",
+    "pages": 4,
+    "effectiveStart": "2026-08-01",
+    "effectiveEnd": "2027-07-31",
+    "reviewStatus": "extracted; curated administrative rules reviewed separately"
+  },
+  {
+    "sourceId": "Fees_and_Charges",
+    "file": "Fees_and_Charges.pdf",
+    "hash": "ed81970613776ad36f33bb95d2ac9b5785a2d1398a8a7f418e634cb9c678f86e",
+    "pages": 3,
+    "effectiveStart": null,
+    "effectiveEnd": null,
+    "reviewStatus": "extracted; curated administrative rules reviewed separately"
+  },
+  {
+    "sourceId": "StudentTravelInsurance",
+    "file": "StudentTravelInsurance.pdf",
+    "hash": "a96aa9b6dacca6e4bd42756b1688e4ea9caf18df5380909caf8d642c45101247",
+    "pages": 1,
+    "effectiveStart": null,
+    "effectiveEnd": null,
+    "reviewStatus": "extracted; curated administrative rules reviewed separately"
+  },
+  {
+    "sourceId": "Student_Insurance_Overview",
+    "file": "Student_Insurance_Overview.pdf",
+    "hash": "8efc9fdf0504689f58fc2a9b4dcff6dbd90de1ac0d6cef997b19357ed9966358",
+    "pages": 7,
+    "effectiveStart": null,
+    "effectiveEnd": null,
+    "reviewStatus": "extracted; curated administrative rules reviewed separately"
+  },
+  {
+    "sourceId": "UHC_PanelClinic_Info",
+    "file": "UHC_PanelClinic_Info.pdf",
+    "hash": "951d47fa4dc1c8c481437adc1f2f8a35d413ad663636848cc012a05ad71f5735",
+    "pages": 4,
+    "effectiveStart": null,
+    "effectiveEnd": null,
+    "reviewStatus": "extracted; curated administrative rules reviewed separately"
+  },
+  {
+    "sourceId": "si-claims",
+    "file": "si-claims.pdf",
+    "hash": "cf01a30cad4efd8d81ad4850ea5c931f313725523f807502cb0dce59ec4ec4d6",
+    "pages": 1,
+    "effectiveStart": null,
+    "effectiveEnd": null,
+    "reviewStatus": "extracted; curated administrative rules reviewed separately"
+  },
+  {
+    "sourceId": "si-flowchart",
+    "file": "si-flowchart.pdf",
+    "hash": "3e88b8eef9009d7b49eeb1a2195e84099aa52bba5bf6e075154d3c7986655838",
+    "pages": 2,
+    "effectiveStart": null,
+    "effectiveEnd": null,
+    "reviewStatus": "extracted; curated administrative rules reviewed separately"
+  },
+  {
+    "sourceId": "si-important-notes",
+    "file": "si-important-notes.pdf",
+    "hash": "c668c83909f1146915c4fa7dfd7b2c4d941fa616c3746ec3682a2ea6c926e77e",
+    "pages": 1,
+    "effectiveStart": null,
+    "effectiveEnd": null,
+    "reviewStatus": "extracted; curated administrative rules reviewed separately"
+  }
+]

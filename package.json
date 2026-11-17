@@ -1,0 +1,40 @@
+{
+  "name": "studentcare",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "docs:ingest": "node scripts/ingest.mjs",
+    "format": "prettier --write src tests scripts/*.mjs package.json tsconfig.json eslint.config.mjs",
+    "test:browser": "node scripts/browser-check.mjs",
+    "diagnose:gemini": "STUDENTCARE_LIVE=1 node --env-file-if-exists=.env.local node_modules/vitest/vitest.mjs run tests/gemini-live.test.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "next": "^16.0.0",
+    "pdfjs-dist": "^5.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "server-only": "^0.0.1",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^16.0.0",
+    "prettier": "^3.10.1",
+    "typescript": "^5.0.0",
+    "vitest": "^4.0.0"
+  },
+  "overrides": {
+    "minimatch": "^11.0.1"
+  }
+}
